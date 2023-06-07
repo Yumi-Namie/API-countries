@@ -8,7 +8,11 @@ Queremos aprender consumir APIs, entonces tenemos este ejercicio lo cual tiene 3
 
 
  <br>
- ![image](https://github.com/Yumi-Namie/API-countries/assets/109878163/21c0d99b-a9aa-4bc0-a97c-d4d7be4cbca4)
+ Website: https://api-countries-eight.vercel.app/
+ <br>
+ 
+![image](https://github.com/Yumi-Namie/API-countries/assets/109878163/8c8b74f7-dafc-4e15-8737-13fe21eb565e)
+
 
 <h2>Nivel dos:</h2>
  a hacer click a un país, necesitamos que aparezca una lista de los países vecinos usando el API (https://api.geodatasource.com/neighbouring-countries), Esta API requiere dos parámetros: __`key`__ y __country\_code__. La clave (`key`) se obtiene de registrarse en su página web:   y el parámetro `country_code` será el que obtengas a partir de la información de la primera API.
