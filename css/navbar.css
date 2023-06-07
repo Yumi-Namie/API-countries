@@ -1,0 +1,27 @@
+/* Navbar */
+.navbar {
+    background-color: var(--color-bg-secondary);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: var(--box-shadow);
+    margin-bottom: 2rem;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-dark-mode {
+    background-color: var(--color-bg-secondary);
+    opacity: 1;
+    transition: 0.3s;
+    color: var(--color-text);
+    border: none;
+    cursor: pointer; /* border none lo borra */
+    outline: none; /* quitamos el borde al hacer click */
+}
+
+.btn-dark-mode:hover {
+    opacity: 0.6;
+}

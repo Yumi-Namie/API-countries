@@ -1,0 +1,81 @@
+:root { 
+    --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --border-radius: 0.5rem
+}
+
+/* Universal Box Sizing with Inheritance */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+  body {
+    --color-bg: #bdbdbd;
+    --color-bg-secondary: #ffffff;
+    --color-text: #000000;
+
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+
+  body.dark-theme {
+    --color-bg: #202D36;
+    --color-bg-secondary: #2B3743;
+    --color-text:#ffffff;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+
+/* Espaciados */
+/* margin top bottom de 2 */
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Main */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--color-bg-secondary);
+    border-radius:var(--border-radius);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: var(--box-shadow);
+}
+
+.card img {
+    height: 40%;
+    width: 100%;
+    background-image: fit;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.card-content h3 {
+    margin-bottom: 2rem;
+}
+
+
+
