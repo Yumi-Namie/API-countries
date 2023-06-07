@@ -6,6 +6,11 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "gh-pages": "^5.0.0",
+    "push-dir": "^0.4.1",
     "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d dist"
   }
 }
